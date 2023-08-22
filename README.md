@@ -118,9 +118,8 @@ npx eslint .
 
 👤 **Surafel Samson**
 
-- GitHub: [@githubhandle](https://github.com/Surafels)
-- Twitter: [@DenisDanielObu1](https://twitter.com/SurafelSamson2)
-- LinkedIn: [denis-daniel-obua-99024a229](https://www.linkedin.com/in/denis-daniel-obua-99024a229/)
+- GitHub: [@Surafels](https://github.com/Surafels)
+- Twitter: [@SurafelSamson2](https://twitter.com/SurafelSamson2)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
