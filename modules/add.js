@@ -91,3 +91,4 @@ const addBook = () => {
 // window.addEventListener('load', newBook.addBook);
 
  
+export { addBook, removeBook,updateStorage,renderBooks,addToList,displayBookList, displayContactInfo};
