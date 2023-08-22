@@ -3,13 +3,6 @@ import { bookTitle, bookAuthor,addBtn, listEntry , listLink ,addLink , listConta
 } from './variable.js';
 
 const books = JSON.parse(localStorage.getItem('books')) || [];
-addBtn.addEventListener('click', addBook);
-addLink.addEventListener('click', addToList);
-listLink.addEventListener('click', displayBookList);
-listContact.addEventListener( 'click',displayContactInfo);
-
-
-renderBooks();
 
 const addBook = () => {
     const title = bookTitle.value.trim();
@@ -28,6 +21,7 @@ const addBook = () => {
       }
     }
   };
+  
   const updateStorage = () => {
     localStorage.setItem('books', JSON.stringify(books));
   }
@@ -89,6 +83,9 @@ const addBook = () => {
   };
 //   const newBook = new Book();
 // window.addEventListener('load', newBook.addBook);
-
+addLink.addEventListener('click', addToList);
+// console.log('clicked');
+listLink.addEventListener('click', displayBookList);
+listContact.addEventListener( 'click',displayContactInfo);
  
 export { addBook, removeBook,updateStorage,renderBooks,addToList,displayBookList, displayContactInfo};
