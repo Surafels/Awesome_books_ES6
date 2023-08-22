@@ -85,6 +85,7 @@ const addBook = () => {
 // window.addEventListener('load', newBook.addBook);
 addLink.addEventListener('click', addToList);
 // console.log('clicked');
+addBtn.addEventListener('click', addBook);
 listLink.addEventListener('click', displayBookList);
 listContact.addEventListener( 'click',displayContactInfo);
  
