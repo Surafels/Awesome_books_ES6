@@ -1,4 +1,4 @@
-import { bookTitle, bookAuthor,addBtn, listEntry , listLink ,addLink , listContact ,sectionList ,sectionNew ,sectionContact ,showDate
+import { bookTitle, bookAuthor,addBtn, listEntry , listLink ,addLink , listContact ,sectionList ,sectionNew ,sectionContact
 
 } from './variable.js';
 
@@ -63,7 +63,7 @@ const addBook = () => {
       });
     });
   };
-
+  
  const  addToList = () => {
     sectionNew.classList.remove('hidden');
     sectionList.classList.add('hidden');
@@ -81,7 +81,10 @@ const addBook = () => {
     sectionNew.classList.add('hidden');
     sectionContact.classList.remove('hidden');
   };
+//   const newBook = new Book();
+// window.addEventListener('load', newBook.addBook);
 addLink.addEventListener('click', addToList);
+// console.log('clicked');
 addBtn.addEventListener('click', addBook);
 listLink.addEventListener('click', displayBookList);
 listContact.addEventListener( 'click',displayContactInfo);

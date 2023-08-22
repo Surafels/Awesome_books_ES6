@@ -8,9 +8,8 @@ const listContact = document.querySelector('#bk-contact');
 const sectionList = document.querySelector('#list');
 const sectionNew = document.querySelector('#new');
 const sectionContact = document.querySelector('#contact');
-const showDate = document.querySelector('.show-date');
 
-export { bookTitle, bookAuthor,addBtn, listEntry , listLink ,addLink , listContact ,sectionList ,sectionNew ,sectionContact ,showDate
+export { bookTitle, bookAuthor,addBtn, listEntry , listLink ,addLink , listContact ,sectionList ,sectionNew ,sectionContact
 
 };
 
