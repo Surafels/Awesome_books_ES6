@@ -2,7 +2,7 @@ import { bookTitle, bookAuthor,addBtn, listEntry , listLink ,addLink , listConta
 
 } from './variable.js';
 
-const books = JSON.parse(localStorage.getItem('books')) || [];
+let books = JSON.parse(localStorage.getItem('books')) || [];
 
 const addBook = () => {
     const title = bookTitle.value.trim();
@@ -81,10 +81,7 @@ const addBook = () => {
     sectionNew.classList.add('hidden');
     sectionContact.classList.remove('hidden');
   };
-//   const newBook = new Book();
-// window.addEventListener('load', newBook.addBook);
 addLink.addEventListener('click', addToList);
-// console.log('clicked');
 addBtn.addEventListener('click', addBook);
 listLink.addEventListener('click', displayBookList);
 listContact.addEventListener( 'click',displayContactInfo);
