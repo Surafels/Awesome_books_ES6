@@ -15,4 +15,3 @@ displayContactInfo();
 const now = DateTime.now();
 const date = document.querySelector('#current-date');
 date.textContent = now.toLocaleString(DateTime.DATETIME_MED);
-console.log(formattedDate);

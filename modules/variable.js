@@ -10,6 +10,7 @@ const sectionNew = document.querySelector('#new');
 const sectionContact = document.querySelector('#contact');
 
 export {
-  bookTitle, bookAuthor, addBtn, listEntry, listLink, addLink, listContact, sectionList, sectionNew, sectionContact,
+  bookTitle, bookAuthor, addBtn, listEntry, listLink, addLink, listContact,
+  sectionList, sectionNew, sectionContact,
 
 };
