@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <header class="main-header">
+      <a href="" class="logo">Awesome books with ES6</a>
+      <nav>
+        <ul class="nav-links">
+          <li id="bk-list" class="">List</li>
+          <li id="bk-add" class="">Add new</li>
+          <li id="bk-contact" class="">Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <p class="show-date" id="current-date"></p>
+    <main>
+      <section id="list" class="">
+        <h1>All awesome books</h1>
+        <ul id="list-entry"></ul>
+      </section>
+
+      <section id="new" class="hidden">
+        <h1>Add a new book</h1>
+        <form action="">
+          <input
+            type="text"
+            id="book-title"
+            placeholder="Title"
+            required
+          /><br /><br />
+          <input
+            type="text"
+            id="book-author"
+            placeholder="Author"
+            required
+          /><br /><br />
+          <button type="submit" id="btn">Add</button>
+        </form>
+      </section>
+
+      <section class="contact-info hidden" id="contact">
+        <h2>Contact information</h2>
+        <p>
+          Do have any question or you just want to say "Hello"? You can reach
+          out to us!
+        </p>
+        <ul class="address">
+          <li>My e-mail:ssurafel4@gmail.com</li>
+          <li>My phone number:+251910002358</li>
+          <li>My address:Addis Ababa,Ethiopia</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>Copyright ...</p>
+    </footer>
+
+    <script  type="module" src="index.js"></script>
+  </body>
+</html>
